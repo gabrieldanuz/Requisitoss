@@ -1,0 +1,2 @@
+rootProject.name = "Requisitos"
+include ':app'

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".CadastroRequisitosActivity"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição:"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/edtDescricaoRequisitos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:lines="5"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Registro:"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/edtDataRegistroRequisitos"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:inputType="number"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nivel:"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            />
+
+        <Spinner
+            android:id="@+id/spnNivelRequisitos"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/background"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duração:"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:id="@+id/edtDuracaoRequisitos"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:background="@drawable/border"
+            android:inputType="number"
+            />
+
+
+
+        <Button
+            android:id="@+id/btnEnviarRequisitos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:backgroundTint="@color/black"
+            android:layout_margin="50dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
+

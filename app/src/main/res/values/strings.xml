@@ -16,4 +16,6 @@
         <item>Urgente</item>
         <item>Importante</item>
     </string-array>
+    <string name="title_activity_lista_projetosactivity">ListaProjetosactivity</string>
+    <string name="title_activity_lista_requisitosactivity">ListaRequisitosactivity</string>
 </resources>

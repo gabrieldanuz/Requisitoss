@@ -10,17 +10,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Requisitos">
         <activity
-            android:name=".CadastroRequisitosActivity"
-            android:label="@string/title_activity_cadastro_requisitos"
+            android:name=".ListaRequisitosactivity"
+            android:label="@string/title_activity_lista_requisitosactivity"
             android:theme="@style/Theme.Requisitos.NoActionBar"></activity>
         <activity
-            android:name=".CadastroProjetoActivity"
-            android:label="@string/title_activity_cadastro_projeto"
+            android:name=".ListaProjetosactivity"
+            android:label="@string/title_activity_lista_projetosactivity"
             android:theme="@style/Theme.Requisitos.NoActionBar" />
+        <activity
+            android:name=".CadastroRequisitosActivity"
+            android:label="@string/title_activity_cadastro_requisitos"/>
+        <activity
+            android:name=".CadastroProjetoActivity"
+            android:label="@string/title_activity_cadastro_projeto" />
         <activity
             android:name=".MenuActivity"
             android:exported="true"
-            android:theme="@style/Theme.Requisitos.NoActionBar" >
+            android:theme="@style/Theme.Requisitos.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

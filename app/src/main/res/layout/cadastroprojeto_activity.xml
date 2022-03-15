@@ -13,13 +13,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_margin="10dp"
-        android:gravity="center">
+        android:layout_margin="10dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nome:"
+            android:text="Nome do Projeto:"
             android:layout_margin="5dp"
             android:textColor="@color/white"
             />
@@ -42,11 +41,13 @@
 
         <EditText
             android:id="@+id/edtDataInicio"
-            android:layout_width="80dp"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:inputType="number"
             android:textColor="@color/white"
+            android:background="@drawable/border"
+            android:text="30/04/2019"
             />
 
         <TextView
@@ -59,12 +60,21 @@
 
         <EditText
             android:id="@+id/edtDataFIm"
-            android:layout_width="80dp"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:inputType="number"
+            android:background="@drawable/border"
             android:textColor="@color/white"
+            android:text="30/04/2019"
             />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
 
         <Button
             android:id="@+id/btnEnviarProjeto"
@@ -73,6 +83,8 @@
             android:text="Enviar"
             android:backgroundTint="@color/black"
             />
+
+        </LinearLayout>
 
     </LinearLayout>
 

@@ -26,7 +26,7 @@ public class MenuActivity extends AppCompatActivity {
         cardViewCadastroProjeto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent it = new Intent(context, CadastroProjetoActivity.class);
+                Intent it = new Intent(context, ListaProjetosactivity.class);
                 startActivity(it);
             }
         });
@@ -34,7 +34,7 @@ public class MenuActivity extends AppCompatActivity {
         cardViewCadastroRequisitos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent it = new Intent(context, CadastroRequisitosActivity.class);
+                Intent it = new Intent(context, ListaRequisitosactivity.class);
                 startActivity(it);
             }
         });
